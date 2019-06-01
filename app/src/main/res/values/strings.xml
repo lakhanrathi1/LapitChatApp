@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Chit-Chat App</string>
+    <string name="this_s_main_page">This is main page</string>
+    <string name="this_is_start_page">This is start page</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">EMail</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="log_out">Log Out</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="all_user">All User</string>
+    <string name="password1">Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="need_an_account">Need An Account</string>
+    <string name="already_a_user">Already A User</string>
+    <string name="chit_chat_app">Chit-Chat App</string>
+    <string name="to">To</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="login1">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_image">Change Image</string>
+    <string name="change_status">Change Status</string>
+    <string name="display_name">Display Name</string>
+    <string name="hey_i_am_using_this_app">Hey! I am using this App</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="your_new_status">Your New Status</string>
+</resources>

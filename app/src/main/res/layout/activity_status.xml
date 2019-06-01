@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lakhan.lapitchatapp.Status">
+
+    <include layout="@layout/tool_bar"
+        android:id="@+id/status_tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"></include>
+
+    <EditText
+        android:id="@+id/changestatus"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/status_tool_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:ems="10"
+        android:hint="@string/your_new_status"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/chagestatusButton"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/changestatus"
+        android:layout_below="@+id/changestatus"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="73dp"
+        android:text="@string/save_changes" />
+
+
+</RelativeLayout>

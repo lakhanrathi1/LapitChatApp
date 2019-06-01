@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_light_disabled"
+    tools:context="com.example.lakhan.lapitchatapp.Register">
+
+    <include
+        android:id="@+id/registerToolbar"
+        layout="@layout/tool_bar"></include>
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/loginpasswordText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/loginemailText"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/loginpasswordText"
+        android:layout_alignStart="@+id/nameText"
+        android:layout_marginBottom="90dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"
+        android:text="@string/create_account" />
+
+    <EditText
+        android:id="@+id/loginpasswordText"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/loginButton"
+        android:layout_alignStart="@+id/loginemailText"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="@string/password1"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_above="@+id/nameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="10dp"
+        android:text="@string/create_new_account"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp" />
+
+</RelativeLayout>

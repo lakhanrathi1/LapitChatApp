@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.lakhan.lapitchatapp.Setting">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settingImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/image"
+        android:tag="5"
+        android:onClick="sd"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/settingImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/display_name"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/nameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/hey_i_am_using_this_app"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/statusText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:text="@string/change_image"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/statusButton"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/change_status"
+        android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>
